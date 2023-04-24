@@ -1,9 +1,15 @@
 /*  your css code here. If applicable */
-span:first-child{
-    color: rgb(255, 0, 0);
-	font-size: larger;
-}
-span:last-child{
+
+
+div::before{
+	
+	content: "Before Element";
 	color: rgb(255, 0, 0);
 	font-size: larger;
 }
+div::after{
+	content: "After Element";
+	color: rgb(255, 0, 0);
+	font-size: larger;
+}
+
